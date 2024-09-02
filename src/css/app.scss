@@ -1,1 +1,29 @@
 // app global css in SCSS form
+
+*{
+ 
+    box-sizing: border-box;
+}
+// helpers
+
+.grid {
+  display: grid;
+
+}
+
+.grid-dir-cols {
+  grid-auto-flow: column;
+}
+
+.grid-dir-rows {
+  grid-auto-flow: row;
+}
+
+.svg-icon{
+    display: grid;
+    place-content: center;
+}
+
+.reset-header {
+    margin: 0;
+}
