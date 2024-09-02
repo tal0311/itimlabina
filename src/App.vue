@@ -6,4 +6,6 @@
 defineOptions({
   name: 'App'
 });
+
+document.title = 'עתים לבינה';
 </script>
